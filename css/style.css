@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
+
+.header-1 {
+    display: flex;
+    position: relative;
+}
+
+.logo {
+    padding: 14px 70px;
+    float: left;
+    width:  50%;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+.menu {
+    padding-left: 690px;
+    width: 110%;
+    float: left;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 45px;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu ul li:hover {
+    border-bottom: 3px solid #7FD0FF;
+}
+
+.menu ul li a:hover {
+    color: #7FD0FF;
+}
+.box {
+    float: right;
+    display: inline-flex;
+    padding-top: 20px;
+    width: 20%;
+}
+
+.box a {
+    color: rgb(184, 184, 184);
+    margin-left: 25px;
+    font-size: 30px;
+   
+}
+
+.box a:hover {
+    color: white;
+}
+
+
+
+.header-2 {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+
+
+
+
